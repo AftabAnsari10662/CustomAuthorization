@@ -10,7 +10,7 @@ using WebApplication9.Controllers;
 
 namespace WebApplication9.Pages
 {
-    [ClaimAuthorization(Claims = "WorkFlowEngine")]
+    [ClaimAuthorization(Claims = "afansari@itron.com")]
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;

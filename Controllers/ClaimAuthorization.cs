@@ -21,7 +21,7 @@ namespace WebApplication9.Controllers
                 _claims = SplitClaims(value);
             }
         }
-        private string _microsoftClaimsUrl = string.Empty;//CommonMethods.ReadValueFromServiceFabricSettings("Config", "Security", "MicrosoftClaimsUrl");
+        private string _microsoftClaimsUrl = @"http://schemas.microsoft.com/ws/2008/06/identity/claims/role"; //CommonMethods.ReadValueFromServiceFabricSettings("Config", "Security", "MicrosoftClaimsUrl");
 
         public const string clientAid = "client_aid";
         public const string scope = "scope";
