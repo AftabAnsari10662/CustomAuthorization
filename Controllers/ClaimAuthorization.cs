@@ -126,6 +126,10 @@ namespace WebApplication9.Controllers
                 {
                     return;
                 }
+                //else
+                //{
+                //    return;
+                //}
             }
             actionContext.Result = new UnauthorizedResult();
             return;
