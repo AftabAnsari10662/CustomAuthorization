@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\afansari\\source\\repos\\WebApplication9\\WebApplication9\\WebApplication9.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\afansari\\source\\repos\\WebApplication9\\WebApplication9\\WebApplication9.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\afansari\\source\\repos\\WebApplication9\\WebApplication9\\WebApplication9.csproj",
+        "projectName": "WebApplication9",
+        "projectPath": "C:\\Users\\afansari\\source\\repos\\WebApplication9\\WebApplication9\\WebApplication9.csproj",
+        "packagesPath": "C:\\Users\\afansari\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\afansari\\source\\repos\\WebApplication9\\WebApplication9\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\afansari\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://itron.pkgs.visualstudio.com/_packaging/ISS/nuget/v3/index.json": {},
+          "https://itron.pkgs.visualstudio.com/_packaging/Itron.Cloud.ActionManager.CommonLibrary/nuget/v3/index.json": {},
+          "https://itron.pkgs.visualstudio.com/_packaging/Itron.Cloud.ActionManager.ServiceCatalog/nuget/v3/index.json": {},
+          "https://itron.pkgs.visualstudio.com/_packaging/Itron.Cloud.Automations.CommonLibrary/nuget/v3/index.json": {},
+          "https://itron.pkgs.visualstudio.com/_packaging/Itron.Cloud.Identity/nuget/v3/index.json": {},
+          "https://itron.pkgs.visualstudio.com/_packaging/Itron.Cloud.Platform/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/itron/_packaging/Itron.Cloud.Automations.CommonLibrary/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.AzureAD.UI": {
+              "target": "Package",
+              "version": "[3.0.0-preview8.19405.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.0.100-preview8-013656\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
